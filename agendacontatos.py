@@ -1,26 +1,22 @@
 #agenda.py
 
-contatos = ()
+contatos = []
 
-def cadastrar_contato() : 
-    pass
+def cadastrar_contato() :
+    nome = input("Nome: ")
+    telefone = input("Telefone: ")
+    email = input("Email: ")
+    contato = {"nome": nome, "telefone": telefone, "email": email}
+    contatos.append(contato)
+    print("Contato cadastrado com sucesso!")
 
 def listar_contatos() :
     pass
 
-def buscar_contato() : 
+def buscar_contato() :
     pass
 
 def remover_contato() :
-    pass
-
-def listar_contatos():
-    pass
-
-def buscar_contato():
-    pass
-
-def remover_contato():
     pass
 
 
